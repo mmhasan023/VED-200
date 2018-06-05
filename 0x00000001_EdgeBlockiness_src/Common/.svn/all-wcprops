@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/HawkeyeSDK/!svn/ver/284/branches/branche_ver%2001.08/HawkeyeSDK/Common
+END
+REDTTypeDefine.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/HawkeyeSDK/!svn/ver/284/branches/branche_ver%2001.08/HawkeyeSDK/Common/REDTTypeDefine.h
+END
+log.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/HawkeyeSDK/!svn/ver/199/branches/branche_ver%2001.08/HawkeyeSDK/Common/log.cpp
+END
+CommonDataApi.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/HawkeyeSDK/!svn/ver/278/branches/branche_ver%2001.08/HawkeyeSDK/Common/CommonDataApi.h
+END
+ThreadBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/HawkeyeSDK/!svn/ver/152/branches/branche_ver%2001.08/HawkeyeSDK/Common/ThreadBase.cpp
+END
+HawkeyeREDSExport.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/HawkeyeSDK/!svn/ver/284/branches/branche_ver%2001.08/HawkeyeSDK/Common/HawkeyeREDSExport.h
+END
+DeinterlaceEx_i.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/HawkeyeSDK/!svn/ver/199/branches/branche_ver%2001.08/HawkeyeSDK/Common/DeinterlaceEx_i.c
+END
+TTypeDefine.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/HawkeyeSDK/!svn/ver/277/branches/branche_ver%2001.08/HawkeyeSDK/Common/TTypeDefine.h
+END
+log.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/HawkeyeSDK/!svn/ver/199/branches/branche_ver%2001.08/HawkeyeSDK/Common/log.h
+END
+ThreadBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/HawkeyeSDK/!svn/ver/152/branches/branche_ver%2001.08/HawkeyeSDK/Common/ThreadBase.h
+END
+MediaCQ.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/HawkeyeSDK/!svn/ver/153/branches/branche_ver%2001.08/HawkeyeSDK/Common/MediaCQ.h
+END
+LockBySystem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/HawkeyeSDK/!svn/ver/180/branches/branche_ver%2001.08/HawkeyeSDK/Common/LockBySystem.cpp
+END
+MAUtil.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/HawkeyeSDK/!svn/ver/278/branches/branche_ver%2001.08/HawkeyeSDK/Common/MAUtil.cpp
+END
+DetectTimeIntervalBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/HawkeyeSDK/!svn/ver/284/branches/branche_ver%2001.08/HawkeyeSDK/Common/DetectTimeIntervalBase.h
+END
+sort.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/HawkeyeSDK/!svn/ver/289/branches/branche_ver%2001.08/HawkeyeSDK/Common/sort.h
+END
