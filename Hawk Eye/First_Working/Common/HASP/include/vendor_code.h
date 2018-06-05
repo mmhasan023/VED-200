@@ -1,0 +1,34 @@
+/* HASP vendor code for demo keys */
+/*
+unsigned char vendorCode[] =
+  "AzIceaqfA1hX5wS+M8cGnYh5ceevUnOZIzJBbXFD6dgf3tBkb9cvUF/Tkd/iKu2fsg9wAysYKw7RMA"
+  "sVvIp4KcXle/v1RaXrLVnNBJ2H2DmrbUMOZbQUFXe698qmJsqNpLXRA367xpZ54i8kC5DTXwDhfxWT"
+  "OZrBrh5sRKHcoVLumztIQjgWh37AzmSd1bLOfUGI0xjAL9zJWO3fRaeB0NS2KlmoKaVT5Y04zZEc06"
+  "waU2r6AU2Dc4uipJqJmObqKM+tfNKAS0rZr5IudRiC7pUwnmtaHRe5fgSI8M7yvypvm+13Wm4Gwd4V"
+  "nYiZvSxf8ImN3ZOG9wEzfyMIlH2+rKPUVHI+igsqla0Wd9m7ZUR9vFotj1uYV0OzG7hX0+huN2E/Id"
+  "gLDjbiapj1e2fKHrMmGFaIvI6xzzJIQJF9GiRZ7+0jNFLKSyzX/K3JAyFrIPObfwM+y+zAgE1sWcZ1"
+  "YnuBhICyRHBhaJDKIZL8MywrEfB2yF+R3k9wFG1oN48gSLyfrfEKuB/qgNp+BeTruWUk0AwRE9XVMU"
+  "uRbjpxa4YA67SKunFEgFGgUfHBeHJTivvUl0u4Dki1UKAT973P+nXy2O0u239If/kRpNUVhMg8kpk7"
+  "s8i6Arp7l/705/bLCx4kN5hHHSXIqkiG9tHdeNV8VYo5+72hgaCx3/uVoVLmtvxbOIvo120uTJbuLV"
+  "TvT8KtsOlb3DxwUrwLzaEMoAQAFk6Q9bNipHxfkRQER4kR7IYTMzSoW5mxh3H9O8Ge5BqVeYMEW36q"
+  "9wnOYfxOLNw6yQMf8f9sJN4KhZty02xm707S7VEfJJ1KNq7b5pP/3RjE0IKtB2gE6vAPRvRLzEohu0"
+  "m7q1aUp8wAvSiqjZy7FLaTtLEApXYvLvz6PEJdj4TegCZugj7c8bIOEqLXmloZ6EgVnjQ7/ttys7VF"
+  "ITB3mazzFiyQuKf4J6+b/a/Y";
+*/
+/*
+ChaspFeature feature = ChaspFeature::fromFeature(3);
+
+unsigned char vendorCode[] =
+"GfcFp5PFPpVEf48Dfn/xJkAHKwWTVK0FIotOq+b3M5aFhJxZY0E908kfI/8NA2GO3hOvBMfy9Y8upI6I"
+"m9IW6Xmn2os+GpjGDlGpmYmyoXHLyMGcwH8QqoN4+rD6YpwJuDjHSxE7IeRGllvHnhBSLfzvlaEkwxKx"
+"pAX7ryKWK07KsqJavl9UE6etIFPeniIzPD/1BoI2MpnbYSISWYKrU80oIFNv0cDCenbqD+5TFM3EE9kR"
+"0yCoNEt233IOiswrmdzSwNrPgQkFKvYtkkKwgkhnUUX9odtHwkse51yZi5j4lJ0HCATyjxaxX2g0ucI1"
+"I3/tRIbkZM1RO1j198BlezVpTTZVHlV8L19HEML6w7OrTqZKC1FsFeP1jR8krd1RPxhNU51yNEGEL7+a"
+"tWW9O9KMY7XDKEY8UktS0CmRQW6UidB56+TRXVJ7eeVq27voDjxH6UaYdy2f8Vdimg1hrGjl6MlPODqr"
+"qDzO+Tq6YH9lQMQtwB5wIoBmdZh1WNgsDitTiWgcrQ0n7rCYj//25iJAmsIeA8H3Szch1Dkoo+eI0ntZ"
+"Mo0ggbus9mgoD6yYsU5//5/S7NQ3Fdo10vO/Bn2quSFlthmh7ul0RxOjvX9lfLw8RMw4yG0BUYz5UCPq"
+"S1HMYmTjyX+6oSlvdnfmW8rL2aZTVPigcrtWZhcUmdB595zpJvrxaohPa7fxEZ2X4XYnZKR8W51Wsepp"
+"emsE6IvrAlLiFwecfMrbyP/Jmv9uNSpTfKGHTb+8JiXnCndEc87IkpGPOIfnwDoOMYGN95EtkQT+asmD"
+"CPHKSbveaZmgCIHQ94iUE8hIco3D9tt1Fkmj2+aTRepBo5eBBT0i87WQwAGZoCWAEQy4M3wDxbLrQ/XN"
+"oFFeO4c/Knxt7tY4jkJ+mFKCRUkQmnVSjIzQS4gNsYmmNMplx3YeKykhDeU=";
+*/

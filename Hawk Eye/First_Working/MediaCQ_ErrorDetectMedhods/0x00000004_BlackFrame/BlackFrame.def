@@ -1,0 +1,12 @@
+; Audio_Mute.def :
+
+LIBRARY      "Audio_Mute"
+
+EXPORTS
+    ; 
+	MCQA_BlackFrameOpen
+	MCQA_BlackFrameClose
+	MCQA_BlackFrameSetCallback
+	MCQA_BlackFrame
+	MCQA_BlackFrameFinishedStream
+	MCQA_BlackFrameSetOption

@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/HawkeyeSDK/!svn/ver/278/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/lib
+END
+ksIPLibRU_STDCALL.lib
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/HawkeyeSDK/!svn/ver/289/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/lib/ksIPLibRU_STDCALL.lib
+END
+SceneSegmentationUD_STDCALL.lib
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/HawkeyeSDK/!svn/ver/289/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/lib/SceneSegmentationUD_STDCALL.lib
+END
+ksIPLibDU_CDECL.lib
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/HawkeyeSDK/!svn/ver/289/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/lib/ksIPLibDU_CDECL.lib
+END
+SceneSegmentation_STDCALL.lib
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/HawkeyeSDK/!svn/ver/289/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/lib/SceneSegmentation_STDCALL.lib
+END
+SceneSegmentationU_STDCALLOMP.lib
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/HawkeyeSDK/!svn/ver/289/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/lib/SceneSegmentationU_STDCALLOMP.lib
+END
+ksIPLibRU_STDCALL_OMP.lib
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/HawkeyeSDK/!svn/ver/289/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/lib/ksIPLibRU_STDCALL_OMP.lib
+END
+SceneSegmentationD_STDCALL.lib
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/HawkeyeSDK/!svn/ver/289/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/lib/SceneSegmentationD_STDCALL.lib
+END
+ksIPLibR_STDCALL.lib
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/HawkeyeSDK/!svn/ver/289/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/lib/ksIPLibR_STDCALL.lib
+END
+SceneSegmentationU_CDECL.lib
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/HawkeyeSDK/!svn/ver/289/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/lib/SceneSegmentationU_CDECL.lib
+END
+ksIPLibD_CDECL.lib
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/HawkeyeSDK/!svn/ver/289/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/lib/ksIPLibD_CDECL.lib
+END
+ksIPLibDU_STDCALL.lib
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/HawkeyeSDK/!svn/ver/289/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/lib/ksIPLibDU_STDCALL.lib
+END
+ksIPLibRU_CDECL.lib
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/HawkeyeSDK/!svn/ver/289/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/lib/ksIPLibRU_CDECL.lib
+END
+SceneSegmentationDU_CDECL.lib
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/HawkeyeSDK/!svn/ver/289/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/lib/SceneSegmentationDU_CDECL.lib
+END
+ksIPLibR_STDCALL_OMP.lib
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/HawkeyeSDK/!svn/ver/289/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/lib/ksIPLibR_STDCALL_OMP.lib
+END
+SceneSegmentationU_STDCALL.lib
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/HawkeyeSDK/!svn/ver/289/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/lib/SceneSegmentationU_STDCALL.lib
+END
+SceneSegmentationU_CDECLOMP.lib
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/HawkeyeSDK/!svn/ver/289/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/lib/SceneSegmentationU_CDECLOMP.lib
+END
+ksIPLibD_STDCALL.lib
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/HawkeyeSDK/!svn/ver/289/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/lib/ksIPLibD_STDCALL.lib
+END
+ksIPLibRU_CDECL_OMP.lib
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/HawkeyeSDK/!svn/ver/289/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/lib/ksIPLibRU_CDECL_OMP.lib
+END
