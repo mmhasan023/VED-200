@@ -1,0 +1,17 @@
+SCC = This is a Source Code Control file
+
+[demo.dsp]
+SCC_Aux_Path = "\\124.137.7.182\_vss\_Lib_IPL"
+SCC_Project_Name = "$/03.Project/ver 1.0.0.1/ksIPLib/CxImgLib/demo", RHAAAAAA
+
+[demo.vcproj]
+SCC_Aux_Path = "\\124.137.7.182\_vss\_Lib_IPL"
+SCC_Project_Name = "$/03.Project/ver 1.0.0.1/ksIPLib/CxImgLib/demo", RHAAAAAA
+
+[demoDLL.dsp]
+SCC_Aux_Path = "\\124.137.7.182\_vss\_Lib_IPL"
+SCC_Project_Name = "$/03.Project/ver 1.0.0.1/ksIPLib/CxImgLib/demo", RHAAAAAA
+
+[demoDLL.vcproj]
+SCC_Aux_Path = "\\124.137.7.182\_vss\_Lib_IPL"
+SCC_Project_Name = "$/03.Project/ver 1.0.0.1/ksIPLib/CxImgLib/demo", RHAAAAAA

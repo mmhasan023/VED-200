@@ -1,40 +1,0 @@
-10
-
-dir
-288
-http://211.106.172.200/HawkeyeSDK/branches/branche_ver%2001.08/HawkeyeSDK/Common/HASP
-http://211.106.172.200/HawkeyeSDK
-
-
-
-2011-05-30T00:55:52.562500Z
-3
-kiokahn
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5848a833-056c-ce4d-b7c5-f9436c9549eb
-
-libhasp
-dir
-
-include
-dir
-
-lib_x64
-dir
-
-lib_x86
-dir
-

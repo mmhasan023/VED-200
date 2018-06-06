@@ -1,46 +1,0 @@
-10
-
-dir
-288
-http://211.106.172.200/HawkeyeSDK/branches/branche_ver%2001.08/HawkeyeSDK/Common/Crypt
-http://211.106.172.200/HawkeyeSDK
-
-
-
-2011-08-11T04:39:40.486250Z
-12
-kiokahn
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5848a833-056c-ce4d-b7c5-f9436c9549eb
-
-include
-dir
-
-lib
-dir
-
-lib_x64
-dir
-
-setup_for_customer
-dir
-
-bin
-dir
-
-bin_x64
-dir
-
