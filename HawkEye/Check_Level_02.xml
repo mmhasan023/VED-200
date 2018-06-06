@@ -1,0 +1,69 @@
+
+
+<?xml version="1.0" encoding="utf-8" ?>
+<checkprofile>
+	<checkvideo>
+		<item active="1" id="0x40000000" name="Scene and Shot Detection">
+			<state>Scene_Detection</state>
+			<options count="1">
+				<option flag="commbo" index="0" name="Sensitivity" value="5"></option>
+			</options>
+		</item>
+		<item active="1" id="0x80000000" name="Shot Detection">
+			<state>Shot_Detection</state>
+			<options count="1">
+				<option flag="commbo" index="0" name="Sensitivity" value="5"></option>
+			</options>
+		</item>
+		<item active="1" id="0x00000004" name="Black Frames">
+			<state>Black_Frames</state>
+			<options count="3">
+				<option flag="User Setting" index="0" name="Noise level" value="0"></option>
+				<option flag="commbo" index="1" name="None detect start ratio" value="4"></option>
+				<option flag="commbo" index="2" name="None detect end ratio" value="7"></option>
+			</options>
+		</item>
+		<item active="1" id="0x00004000" name="Freeze Frames">
+			<state>Freeze_Frames</state>
+			<options count="5">
+				<option flag="commbo" index="0" name="Freeze time" value="0.2"></option>
+				<option flag="commbo" index="1" name="Noise level" value="12"></option>
+				<option flag="commbo" index="2" name="Static movie recognation ratio" value="2"></option>
+				<option flag="commbo" index="3" name="None detect start ratio" value="4"></option>
+				<option flag="commbo" index="4" name="None detect end ratio" value="7"></option>
+			</options>
+		</item>
+		<item active="1" id="0x00000800" name="Color Bars">
+			<state>Color_Bars</state>
+		</item>
+		<item active="1" id="0x00020000" name="Block Errors">
+			<state>Block_Errors</state>
+			<options count="5">
+				<option flag="commbo" index="0" name="Block Count" value="10"></option>
+				<option flag="commbo" index="1" name="Block Boundary Hight Barrier" value="200"></option>
+				<option flag="commbo" index="2" name="Block Boundary Low Barrier" value="50"></option>
+				<option flag="commbo" index="3" name="None detect start ratio" value="0"></option>
+				<option flag="commbo" index="4" name="None detect end ratio" value="0"></option>
+			</options>
+		</item>
+	</checkvideo>
+	<checkaudio>
+		<item active="1" id="0x00000008" name="Mute">
+			<state>Mute</state>
+			<options count="3">
+				<option flag="commbo" index="0" name="Mute time" value="5"></option>
+				<option flag="commbo" index="1" name="None detect start ratio" value="3"></option>
+				<option flag="commbo" index="2" name="None detect end ratio" value="5"></option>
+			</options>
+		</item>
+		<item active="1" bit_depth="16" id="0x00000010" name="Volume Level">
+			<state>Volume_Level</state>
+			<options count="4">
+				<option flag="User Setting" index="0" name="Basis" value="89"></option>
+				<option flag="commbo" index="1" name="Maximum value" value="96"></option>
+				<option flag="commbo" index="2" name="Minimum value" value="74"></option>
+				<option flag="commbo" index="3" name="Balance value" value="20"></option>
+			</options>
+		</item>
+	</checkaudio>
+</checkprofile>

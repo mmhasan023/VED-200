@@ -1,0 +1,43 @@
+10
+
+dir
+288
+http://211.106.172.200/HawkeyeSDK/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL
+http://211.106.172.200/HawkeyeSDK
+
+
+
+2012-02-07T07:16:18.762904Z
+278
+kiokahn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5848a833-056c-ce4d-b7c5-f9436c9549eb
+
+include
+dir
+
+lib
+dir
+
+lib_x64
+dir
+
+bin
+dir
+
+bin_x64
+dir
+

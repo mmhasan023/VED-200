@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_Unicode|Win32">
+      <Configuration>Debug_Unicode</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Unicode|x64">
+      <Configuration>Debug_Unicode</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_UnicodeOMP|Win32">
+      <Configuration>Release_UnicodeOMP</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_UnicodeOMP|x64">
+      <Configuration>Release_UnicodeOMP</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Unicode|Win32">
+      <Configuration>Release_Unicode</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Unicode|x64">
+      <Configuration>Release_Unicode</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>0x00000004_BlackFrame</ProjectName>
+    <ProjectGuid>{0151C020-5EE7-454D-81C7-EA25A321385B}</ProjectGuid>
+    <RootNamespace>BlackFrame</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_UnicodeOMP|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_UnicodeOMP|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_UnicodeOMP|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_UnicodeOMP|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.26919.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_UnicodeOMP|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_UnicodeOMP|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>./;../../Common;../../Common/ksIPL/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;BLACKFRAME_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ksIPLibD_STDCALL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)PlugIn\BlackFrame.dll</OutputFile>
+      <AdditionalLibraryDirectories>../../Common/ksIPL/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>BlackFrame.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>./;../../Common;../../Common/ksIPL/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;_DEBUG;_WINDOWS;_USRDLL;BLACKFRAME_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ksIPLibD_STDCALL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)PlugIn\BlackFrame.dll</OutputFile>
+      <AdditionalLibraryDirectories>../../Common/ksIPL/lib_x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>BlackFrame.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>./;../../Common;../../Common/ksIPL/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_AFXDLL;WIN32;NDEBUG;_WINDOWS;_USRDLL;BLACKFRAME_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ksIPLibR_STDCALL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)PlugIn\BlackFrame.dll</OutputFile>
+      <AdditionalLibraryDirectories>../../Common/ksIPL/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>BlackFrame.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>./;../../Common;../../Common/ksIPL/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_AFXDLL;WIN64;NDEBUG;_WINDOWS;_USRDLL;BLACKFRAME_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ksIPLibR_STDCALL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)PlugIn\BlackFrame.dll</OutputFile>
+      <AdditionalLibraryDirectories>../../Common/ksIPL/lib_x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>BlackFrame.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>./;../../Common;../../Common/ksIPL/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_LOGDATA;WIN32;_DEBUG;_WINDOWS;_USRDLL;BLACKFRAME_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ksIPLibDU_STDCALL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)PlugIn\BlackFrame.dll</OutputFile>
+      <AdditionalLibraryDirectories>../../Common/ksIPL/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>BlackFrame.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>./;../../Common;../../Common/ksIPL/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;_DEBUG;_WINDOWS;_USRDLL;BLACKFRAME_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ksIPLibD_STDCALL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)PlugIn\BlackFrame.dll</OutputFile>
+      <AdditionalLibraryDirectories>../../Common/ksIPL/lib_x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>BlackFrame.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>./;../../Common;../../Common/ksIPL/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_AFXDLL;WIN32;NDEBUG;_WINDOWS;_USRDLL;BLACKFRAME_EXPORTS;_LOGDATA;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <OpenMPSupport>false</OpenMPSupport>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ksIPLibR_STDCALL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)PlugIn\BlackFrame.dll</OutputFile>
+      <AdditionalLibraryDirectories>../../Common/ksIPL/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>BlackFrame.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>./;../../Common;../../Common/ksIPL/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_AFXDLL;WIN64;NDEBUG;_WINDOWS;_USRDLL;BLACKFRAME_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <OpenMPSupport>false</OpenMPSupport>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ksIPLibR_STDCALL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)PlugIn\BlackFrame.dll</OutputFile>
+      <AdditionalLibraryDirectories>../../Common/ksIPL/lib_x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>BlackFrame.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_UnicodeOMP|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>./;../../Common;../../Common/ksIPL/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_AFXDLL;WIN32;NDEBUG;_WINDOWS;_USRDLL;BLACKFRAME_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <OpenMPSupport>true</OpenMPSupport>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ksIPLibR_STDCALL_OMP.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)PlugIn\BlackFrame.dll</OutputFile>
+      <AdditionalLibraryDirectories>../../Common/ksIPL/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>BlackFrame.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_UnicodeOMP|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>./;../../Common;../../Common/ksIPL/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_AFXDLL;WIN64;NDEBUG;_WINDOWS;_USRDLL;BLACKFRAME_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <OpenMPSupport>true</OpenMPSupport>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CallingConvention>StdCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ksIPLibR_STDCALL_OMP.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)PlugIn\BlackFrame.dll</OutputFile>
+      <AdditionalLibraryDirectories>../../Common/ksIPL/lib_x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>BlackFrame.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Common\AppUtil.cpp" />
+    <ClCompile Include="..\..\Common\MAUtil.cpp" />
+    <ClCompile Include="BlackFrame.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="BlackFrameExport.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="DetecBlackFrame.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug_Unicode|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_UnicodeOMP|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_UnicodeOMP|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Unicode|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BlackFrame.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Common\AppUtil.h" />
+    <ClInclude Include="..\..\Common\CommonDataApi.h" />
+    <ClInclude Include="..\..\Common\ksIPL\include\iplDefine.h" />
+    <ClInclude Include="..\..\Common\ksIPL\include\iplFrame.h" />
+    <ClInclude Include="..\..\Common\MAUtil.h" />
+    <ClInclude Include="..\..\Common\TTypeDefine.h" />
+    <ClInclude Include="BlackFrame.h" />
+    <ClInclude Include="BlackFrameExport.h" />
+    <ClInclude Include="DetecBlackFrame.h" />
+    <ClInclude Include="iplapi.h" />
+    <ClInclude Include="ipltypes.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BlackFrame.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

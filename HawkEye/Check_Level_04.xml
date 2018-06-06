@@ -1,0 +1,83 @@
+
+
+<?xml version="1.0" encoding="utf-8" ?>
+<checkprofile>
+	<checkvideo>
+		<item active="1" id="0x40000000" name="Scene and Shot Detection">
+			<state>Scene_Detection</state>
+			<options count="1">
+				<option flag="commbo" index="0" name="Sensitivity" value="5"></option>
+			</options>
+		</item>
+		<item active="1" id="0x80000000" name="Shot Detection">
+			<state>Shot_Detection</state>
+			<options count="1">
+				<option flag="commbo" index="0" name="Sensitivity" value="5"></option>
+			</options>
+		</item>
+		<item active="1" id="0x00000001" name="Edge Blockiness Errors">
+			<state>Edge_Blockiness_Errors</state>
+			<options count="4">
+				<option flag="commbo" index="0" name="None detect start ratio" value="0"></option>
+				<option flag="commbo" index="1" name="None detect end ratio" value="0"></option>
+				<option flag="commbo" index="2" name="Pulse signal detect ratio" value="90"></option>
+				<option flag="commbo" index="3" name="Using twin block filter" value="true"></option>
+			</options>
+		</item>
+		<item active="1" id="0x00000002" name="Single Frame Noise">
+			<state>Single_Frame_Noise</state>
+		</item>
+		<item active="1" id="0x00000004" name="Black Frames">
+			<state>Black_Frames</state>
+			<options count="3">
+				<option flag="User Setting" index="0" name="Noise level" value="0"></option>
+				<option flag="commbo" index="1" name="None detect start ratio" value="4"></option>
+				<option flag="commbo" index="2" name="None detect end ratio" value="7"></option>
+			</options>
+		</item>
+		<item active="1" id="0x00000040" name="Boundary Movement Errors">
+			<state>Boundary_Movement_Errors</state>
+		</item>
+		<item active="1" id="0x00000400" name="Block Stripe">
+			<state>Block_Stripe</state>
+			<options count="1">
+				<option flag="commbo" index="0" name="Sensitivity" value="6"></option>
+			</options>
+		</item>
+		<item active="1" id="0x00000080" name="Stripe Errors">
+			<state>Stripe_Errors</state>
+			<options count="1">
+				<option flag="commbo" index="0" name="Line ratio" value="50"></option>
+			</options>
+		</item>
+		<item active="1" id="0x00004000" name="Freeze Frames">
+			<state>Freeze_Frames</state>
+			<options count="5">
+				<option flag="commbo" index="0" name="Freeze time" value="0.2"></option>
+				<option flag="commbo" index="1" name="Noise level" value="12"></option>
+				<option flag="commbo" index="2" name="Static movie recognation ratio" value="2"></option>
+				<option flag="commbo" index="3" name="None detect start ratio" value="4"></option>
+				<option flag="commbo" index="4" name="None detect end ratio" value="7"></option>
+			</options>
+		</item>
+		<item active="1" id="0x00000800" name="Color Bars">
+			<state>Color_Bars</state>
+		</item>
+		<item active="1" id="0x00008000" name="Interlaced Errors">
+			<state>Interlaced_Errors</state>
+			<options count="1">
+				<option flag="commbo" index="0" name="Sensitivity" value="5"></option>
+			</options>
+		</item>
+		<item active="1" id="0x00020000" name="Block Errors">
+			<state>Block_Errors</state>
+			<options count="5">
+				<option flag="commbo" index="0" name="Block Count" value="5"></option>
+				<option flag="commbo" index="1" name="Block Boundary Hight Barrier" value="200"></option>
+				<option flag="commbo" index="2" name="Block Boundary Low Barrier" value="50"></option>
+				<option flag="commbo" index="3" name="None detect start ratio" value="0"></option>
+				<option flag="commbo" index="4" name="None detect end ratio" value="0"></option>
+			</options>
+		</item>
+	</checkvideo>
+</checkprofile>

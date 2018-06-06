@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/HawkeyeSDK/!svn/ver/278/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/include
+END
+iplApi.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/HawkeyeSDK/!svn/ver/289/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/include/iplApi.h
+END
+iplDefine.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/HawkeyeSDK/!svn/ver/268/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/include/iplDefine.h
+END
+omp_thread.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/HawkeyeSDK/!svn/ver/199/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/include/omp_thread.h
+END
+ipl1DImpulseEdgeDetectionRT.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/HawkeyeSDK/!svn/ver/268/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/include/ipl1DImpulseEdgeDetectionRT.h
+END
+SceneSegmentationExp.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/HawkeyeSDK/!svn/ver/278/branches/branche_ver%2001.08/HawkeyeSDK/Common/ksIPL/include/SceneSegmentationExp.h
+END
